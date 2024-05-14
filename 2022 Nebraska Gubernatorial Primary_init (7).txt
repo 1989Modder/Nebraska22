@@ -1,0 +1,335 @@
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 36,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 21,
+        "fields": {
+            "year": 2020,
+            "summary": "<p style=\"display:inline\">Nebraska's Republican Primary effectively serves as its general election, as the Republican party is completely dominant. This year, the gubernatorial race has devolved into a free-for-all as Governor Pete Ricketts' hand-picked successor, Jim Pillen, squares off against Charles Herbster, a far-right Trump associate involved in the planning of Trump's rally leading up to the January 6 attack, Brett Lindstrom, a moderate financial advisor from Omaha, and Theresa Thibodeau, a former Ricketts acolyte going on a renegade effort of her own.\n<p> Will Nebraska favor Pillen to carry on Ricketts' legacy, Herbster to solidify Trump's reign over the red states, Lindstrom to revive bipartisanship, or Thibodeau to focus on local issues? Only time, effort and backroom dealings will tell!\n<p></p>",
+            "image_url": "https://nebraskaexaminer.com/wp-content/uploads/2022/02/IMG_0694-scaled-e1643942790770-1024x571.jpg",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "https://hips.hearstapps.com/vidthumb/fbb197b6-b3f3-48f1-b84a-75790dac63c1/fbb197b6-b3f3-48f1-b84a-75790dac63c1_image.jpg",
+            "recommended_reading": "<ul>\n<li><a href=https://www.chicagotribune.com/opinion/editorials/ct-edit-chicago-tribune-biden-endorsement-20200925-lnyxsb5qvrftnjjmj3rnzj33jy-story.html>Our Case For Joe Biden</a></li>\n<li><a href=https://nationalinterest.org/feature/case-trump-166808>The Case For Trump</a></li>\n<li><a href=https://www.npr.org/2020/11/18/935730100/how-biden-won-ramping-up-the-base-and-expanding-margins-in-the-suburbs>How Biden Won: Ramping Up The Base And Expanding Margins In The Suburbs</a></li>\n<li><a href=https://www.prospectmagazine.co.uk/politics/donald-trump-joe-biden-us-election-almost-win-votes-concede>Why Did Trump Almost Win?</a></li>\n<li><a href=https://www.hoover.org/research/no-evidence-voter-fraud-guide-statistical-claims-about-2020-election>No Evidence For Voter Fraud: A Guide To Statistical Claims About The 2020 Election</a></li>\n</ul>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/2012-no-majority.jpg",
+            "creator": "Dan Bryan",
+            "display_year": "2022 Nebraska Gubernatorial Primary"
+        }
+    }
+]
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 300,
+        "fields": {
+            "first_name": "Jim",
+            "last_name": "Pillen",
+            "election": 21,
+            "party": "GOP (Ricketts Faction)",
+            "state": "Platte County (Columbus)",
+            "priority": 1,
+            "description": "<p>Jim Pillen is a multimillionaire pork tycoon and former Cornhuskers football player from Columbus, to the northwest of Omaha. As a political scion of incumbent governor Pete Ricketts, Pillen has the backing of the state's local monied interests. However, Pillen's demeanor and establishment tinge has led to unwelcome attention from national activists, who favor his right-wing challenger, Charles Herbster.  </p>\n<p>Pillen will need to defend himself from claims of disloyalty to national GOP kingmaker and former President Donald Trump, while avoiding driving crucial suburban and urban moderates into the columns of Brett Lindstrom and Theresa Thibodeau. He will have to balance culture war issues with the economy, not getting bogged down in either direction. Finally, Pillen will have to balance portraying the Ricketts economy as a success, while condemning Biden's handling of the national economy. Can Pillen carry on Ricketts' legacy, or will Nebraska choose new leadership?  </p>",
+            "color_hex": "#ffd500",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 1,
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Jim_Pillen_2023_%28cropped%29.jpg",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2020 election.</h3><p>Things may have been closer and more contested than you hoped for, but the final result remains. Can you help bring the country back together after a tumultuous few years? Or will you be seen as a lame duck from the first day -- unable to keep the two wings of your party coordinated? Time will tell.</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 2020 election.</h3><p>After an election in which many of your supporters claimed democracy itself was at stake, what happens now? Perhaps the party will need to go in a completely different direction in 2024. As for yourself, it seems that your long, illustrious political career has surely drawn to a close.</p>",
+            "no_electoral_majority_message": "<h3>Sorry! You have lost the 2020 election.</h3><p>In spite of the 269-269 tie in the electoral college, Republicans control a majority of state delegations in the House of Representatives. After an election in which many of your supporters claimed democracy itself was at stake, what happens now? Perhaps the party will need to go in a completely different direction in 2024.</p>",
+            "description_as_running_mate": "",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 301,
+        "fields": {
+            "first_name": "Charles",
+            "last_name": "Herbster",
+            "election": 21,
+            "party": "GOP (Trump Faction)",
+            "state": "Richardson County (Falls City)",
+            "priority": 2,
+            "description": "<p>Charles Herbster is an agribusiness millionaire, and Donald Trump's most prominent loyalist in the state of Nebraska.  Herbster has been involved in Trump's rise to power from the beginning, having met him at Mar-a-Lago in 2013. He has made his way into the inner circle, and was one of the key planners who met with Trump on the eve of the January 6 plot.</p>\n\n<p> Herbster starts out with a huge base of far-right Nebraskans, perhaps the most motivated base any gubernatorial candidate has ever had in Nebraska. Even so, he will need to appeal to rank-and-file Republicans. Herbster's electability will hinge on two factors. First will be his ability to defeat Pillen on the culture war front. Second, he will need to contend with his former running mate, Theresa Thibodeau, who will try to outflank him in the suburbs. Can Herbster persecute this Beef State beef to the end, or will he be grilled? ",
+            "color_hex": "#ff0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 1,
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Charles_Herbster.jpg/640px-Charles_Herbster.jpg",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2020 election.</h3><p>For the second time in a row, many analysts saw a victory for you as practically impossible. But whatever they say, it is clear that your Make America Great Again agenda has been vindicated. Where do you take things from here?</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 2020 election.</h3><p>After an election in which many of your supporters claimed democracy itself was at stake, what happens now? Many analysts believe the party will need to go in a completely different direction next time. As for yourself, will you take these results sitting down, or will you prepare yourself for an epic political comeback in 2024?</p>",
+            "no_electoral_majority_message": "<h3>Congratulations! You have won the 2020 election.</h3><p>In spite of the 269-269 tie in the electoral college, Republicans control a majority of state delegations in the House of Representatives. A lot of liberals are absolutely distraught and outraged that the election came down to such a technicality, but hey, those are the rules!</p>",
+            "description_as_running_mate": "",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 302,
+        "fields": {
+            "first_name": "Brett",
+            "last_name": "Lindstrom",
+            "election": 21,
+            "party": "GOP (Moderate Faction)",
+            "state": "Lancaster County (Lincoln)",
+            "priority": 3,
+            "description": "<p>Brett Lindstrom is a two-term State Senator from northwest Omaha, Bennington and Irvington. Lindstrom grew up in Lincoln, played as a Cornhusker football walk-on and moved to Omaha to work as a financial advisor with his father. Lindstrom's political debut came in 2012, when he challenged Rep. Lee Terry in the primary from the economic right and social left.</p>\n\n<p>Lindstrom has thrown his hat in the ring this year with the same strategy: to play up economic concerns while embracing moderate to libertarian social views. Lindstrom will have to cast aspersions on the Ricketts economy, emphasizing his fiscal conservatism. His greatest challenge, however, will be avoiding culture war attacks on his moderate social views, and winning over suburban and rural voters with promises to lower taxes. Finally, he will have to prevent Thibodeau from sapping his urban base. Can Lindstrom bring an age of bipartisanship to Nebraska?  <p>",
+            "color_hex": "#00b3a7",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 1,
+            "image_url": "https://bloximages.chicago2.vip.townnews.com/journalstar.com/content/tncms/assets/v3/editorial/4/48/44837d1a-2612-5a78-bc51-267852dce7c3/5863d94f80475.image.jpg?resize=398%2C500",
+            "electoral_victory_message": "",
+            "electoral_loss_message": "",
+            "no_electoral_majority_message": "",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 303,
+        "fields": {
+            "first_name": "Theresa",
+            "last_name": "Thibodeau",
+            "election": 21,
+            "party": "GOP (Renegade)",
+            "state": "Douglas County (Omaha)",
+            "priority": 4,
+            "description": "<p>Theresa Thibodeau, an Omaha small business owner, was appointed by Governor Ricketts to the State Senate in 2017, after a vacancy in a Central Omaha seat. A year later, she lost a heartbreakingly close election to Machaela Cavanaugh, a Democrat. Later, she served as Charles Herbster's running mate in the early running of the campaign, before parting ways on good terms in the summer of '21. Later, she refused to side with Herbster or Pillen, going her own way in the campaign.</p>\n<p>Thibodeau has embraced an interesting strategy she calls \"Nebraska First\", emphasizing local issues instead of national ones. With a surprisingly strong ground game, particularly in rural Nebraska, Thibodeau will have to siphon support from all three of the other major candidates. She will be competing primarily with Lindstrom in the cities, Pillen in the suburbs, and Herbster in the rural areas. Will she fall by the wayside, play spoiler, or win outright?</p>",
+            "color_hex": "#5900ff",
+            "secondary_color_hex": "#A1FFA1",
+            "is_active": 1,
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Theresa_Thibodeau_%2830414138007%29_%28cropped%29.jpg/800px-Theresa_Thibodeau_%2830414138007%29_%28cropped%29.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 304,
+        "fields": {
+            "first_name": "Elected",
+            "last_name": "Office",
+            "election": 21,
+            "party": "GOP",
+            "state": "N/A",
+            "priority": 5,
+            "description": "'",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://ballotpedia.s3.amazonaws.com/images/thumb/1/18/Nebraska_Republican_Party.jpg/225px-Nebraska_Republican_Party.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "Lieutenant Governor is an elected office in Nebraska - you are free to select a running mate in the general election, but it is not required, as the Lieutenant Governor is elected independently. ",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 305,
+        "fields": {
+            "first_name": "Elected",
+            "last_name": "Office",
+            "election": 21,
+            "party": "GOP",
+            "state": "N/A",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://ballotpedia.s3.amazonaws.com/images/thumb/1/18/Nebraska_Republican_Party.jpg/225px-Nebraska_Republican_Party.jpg",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "Lieutenant Governor is an elected office in Nebraska - you are free to select a running mate in the general election, but it is not required, as the Lieutenant Governor is elected independently. ",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 306,
+        "fields": {
+            "first_name": "Elected",
+            "last_name": "Office",
+            "election": 21,
+            "party": "GOP",
+            "state": "N/A",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://ballotpedia.s3.amazonaws.com/images/thumb/1/18/Nebraska_Republican_Party.jpg/225px-Nebraska_Republican_Party.jpg",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "Lieutenant Governor is an elected office in Nebraska - you are free to select a running mate in the general election, but it is not required, as the Lieutenant Governor is elected independently. ",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 307,
+        "fields": {
+            "first_name": "Elected",
+            "last_name": "Office",
+            "election": 21,
+            "party": "GOP",
+            "state": "N/A",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://ballotpedia.s3.amazonaws.com/images/thumb/1/18/Nebraska_Republican_Party.jpg/225px-Nebraska_Republican_Party.jpg",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "Lieutenant Governor is an elected office in Nebraska - you are free to select a running mate in the general election, but it is not required, as the Lieutenant Governor is elected independently. ",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 200,
+        "fields": {
+            "candidate": 300,
+            "running_mate": 304
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 116061,
+        "fields": {
+            "candidate": 301,
+            "running_mate": 305
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 85831,
+        "fields": {
+            "candidate": 302,
+            "running_mate": 306
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 88877,
+        "fields": {
+            "candidate": 303,
+            "running_mate": 307
+        }
+    }
+]
+
+campaignTrail_temp.credits = "Synthetic Rayna"
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 21,
+        "candidates": [
+            300,
+            301,
+            302,
+            303
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 21,
+        "candidates": [
+            300,
+            301,
+            302,
+            303
+        ]
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 21,
+        "year": 2020,
+        "is_premium": 0,
+        "display_year": "2022 Nebraska Gubernatorial Primary"
+    }
+]
+
+jet_data = {
+    "headerColor": "#ff0033",
+    "windowColor": "#ffffff",
+    "containerColor": "#000000",
+    "innerWindowColor": "#ffffff",
+    "bannerImageUrl": "https://jetsimon.com/public/placeholderbanner.png",
+    "backgroundImageUrl": "https://coolbackgrounds.io/images/backgrounds/white/pure-white-background-85a2a7fd.jpg",
+    "endingTextColor": "#000000",
+    "customQuote": "\"After 40 years of raising pigs, I know slop when I see it.\" - Jim Pillen"
+}
+
+//#startcode
+
+
+corrr = '\n              <h2>THE CAMPAIGN TRAIL</h2><font id="wittyquote" size="4" color="white"><em>"After 40 years of raising pigs, I know slop when I see it." - Jim Pillen</em></font>\n            ';
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#ff0033";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#ffffff";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#000000";
+
+document.getElementById("header").src = "https://jetsimon.com/public/placeholderbanner.png";
+
+document.body.background = "https://coolbackgrounds.io/images/backgrounds/white/pure-white-background-85a2a7fd.jpg";
+
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#ffffff!important;}</style>";
+
+//#endcode
